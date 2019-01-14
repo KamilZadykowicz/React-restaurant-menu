@@ -1,0 +1,56 @@
+html {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.item {
+  line-height: 160%;
+  padding: 20px 10px;
+  /* cursor: pointer; */
+}
+
+.item:nth-child(even) {
+  background-color: rgb(248, 217, 217);
+}
+.item:nth-child(odd) {
+  background-color: rgb(218, 200, 200);
+}
+
+.enabled {
+  font-weight: bold;
+} 
+.disabled {
+color: gray;
+}
+.buttons {
+  height: 80px;
+}
+.mybtn {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: all 0.2s;
+  width: 150px;
+  height: 45px;
+}
+
+.mybtn-active {
+  font-weight: 700;
+  background-color: #00CC00;
+}
+.align-right {
+  display: inline-block;
+  margin-left: auto;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.change-quantity {
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+}
+.add-to-cart {
+  margin-left: 20px;
+}
